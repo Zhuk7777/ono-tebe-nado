@@ -1,11 +1,23 @@
 .header {
-  display: grid;
-  grid-template-columns: repeat(3,auto);
-  place-content: center space-around;
+  display: flex;
+  justify-content: center;
   align-items: center;
   height: 293px;
+  width: 1440px;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
+  font-size: 18px;
 }
+
+.header__content {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  width: 1340px;
+  height: 109px;
+  place-content: center space-between;
+  align-items: center;
+}
+
 
 .header__links-list {
   display: flex;
@@ -17,7 +29,6 @@
 .header__links-list-item_no-bullit {
   list-style: none;
 }
-
 
 .header__link {
   text-decoration: none;
@@ -31,12 +42,19 @@
   display: block;
   width: 148px;
   height: 105px;
+  justify-self: center;
 }
 
 .adress {
   display: flex;
   flex-direction: column;
   width: 240px;
+  font-style: normal;
+  line-height: 24.3px;
+}
+
+.header__adress {
+  justify-self: end;
 }
 
 .contact-info {
