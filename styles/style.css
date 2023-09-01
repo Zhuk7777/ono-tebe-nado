@@ -1,1 +1,44 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  place-content: center space-around;
+  align-items: center;
+  height: 293px;
+  font-weight: 400;
+}
+
+.header__links-list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 32px;
+  list-style: circle;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+
+.header__link {
+  text-decoration: none;
+}
+
+.header__link_active {
+  text-underline-offset: 4px;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+}
+
+.adress {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+}
+
+.contact-info {
+  text-underline-offset: 4px;
+}
