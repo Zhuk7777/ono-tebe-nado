@@ -253,7 +253,7 @@
   column-gap: 25px;
   width: 1340px;
   height: 487px;
-  margin: 181px 50px 0 50px;
+  margin: 181px 50px 180px 50px;
   font-family: Raleway, sans-serif;
 }
 
@@ -296,4 +296,45 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 23.48px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 1340px;
+  margin: 0 50px 90px 50px;
+  font-family: Raleway, sans-serif;
+}
+
+.footer__adress {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.3px;
+}
+
+.footer__menu-list {
+  text-align: center;
+  list-style: none;
+}
+
+.footer__menu-list-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.13px;
+}
+
+.footer__menu-link {
+  text-underline-offset: 4px;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  height: 48px;
+  list-style: none;
 }
